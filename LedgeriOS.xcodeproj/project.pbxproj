@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222A47771DDD280A006C11A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A47761DDD280A006C11A5 /* AppDelegate.swift */; };
+		222A47791DDD280A006C11A5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A47781DDD280A006C11A5 /* MasterViewController.swift */; };
+		222A477B1DDD280A006C11A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A477A1DDD280A006C11A5 /* DetailViewController.swift */; };
+		222A477E1DDD280A006C11A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222A477C1DDD280A006C11A5 /* Main.storyboard */; };
+		222A47801DDD280A006C11A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222A477F1DDD280A006C11A5 /* Assets.xcassets */; };
+		222A47831DDD280A006C11A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222A47811DDD280A006C11A5 /* LaunchScreen.storyboard */; };
+		222A478E1DDD280B006C11A5 /* LedgeriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A478D1DDD280B006C11A5 /* LedgeriOSTests.swift */; };
+		222A47991DDD280B006C11A5 /* LedgeriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A47981DDD280B006C11A5 /* LedgeriOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		222A478A1DDD280B006C11A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222A476B1DDD280A006C11A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222A47721DDD280A006C11A5;
+			remoteInfo = LedgeriOS;
+		};
+		222A47951DDD280B006C11A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222A476B1DDD280A006C11A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222A47721DDD280A006C11A5;
+			remoteInfo = LedgeriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222A47731DDD280A006C11A5 /* LedgeriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedgeriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222A47761DDD280A006C11A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		222A47781DDD280A006C11A5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		222A477A1DDD280A006C11A5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		222A477D1DDD280A006C11A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222A477F1DDD280A006C11A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222A47821DDD280A006C11A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222A47841DDD280A006C11A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222A47891DDD280B006C11A5 /* LedgeriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgeriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222A478D1DDD280B006C11A5 /* LedgeriOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgeriOSTests.swift; sourceTree = "<group>"; };
+		222A478F1DDD280B006C11A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222A47941DDD280B006C11A5 /* LedgeriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgeriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222A47981DDD280B006C11A5 /* LedgeriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgeriOSUITests.swift; sourceTree = "<group>"; };
+		222A479A1DDD280B006C11A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222A47701DDD280A006C11A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A47861DDD280B006C11A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A47911DDD280B006C11A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222A476A1DDD280A006C11A5 = {
+			isa = PBXGroup;
+			children = (
+				222A47751DDD280A006C11A5 /* LedgeriOS */,
+				222A478C1DDD280B006C11A5 /* LedgeriOSTests */,
+				222A47971DDD280B006C11A5 /* LedgeriOSUITests */,
+				222A47741DDD280A006C11A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222A47741DDD280A006C11A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222A47731DDD280A006C11A5 /* LedgeriOS.app */,
+				222A47891DDD280B006C11A5 /* LedgeriOSTests.xctest */,
+				222A47941DDD280B006C11A5 /* LedgeriOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222A47751DDD280A006C11A5 /* LedgeriOS */ = {
+			isa = PBXGroup;
+			children = (
+				222A47761DDD280A006C11A5 /* AppDelegate.swift */,
+				222A47781DDD280A006C11A5 /* MasterViewController.swift */,
+				222A477A1DDD280A006C11A5 /* DetailViewController.swift */,
+				222A477C1DDD280A006C11A5 /* Main.storyboard */,
+				222A477F1DDD280A006C11A5 /* Assets.xcassets */,
+				222A47811DDD280A006C11A5 /* LaunchScreen.storyboard */,
+				222A47841DDD280A006C11A5 /* Info.plist */,
+			);
+			path = LedgeriOS;
+			sourceTree = "<group>";
+		};
+		222A478C1DDD280B006C11A5 /* LedgeriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				222A478D1DDD280B006C11A5 /* LedgeriOSTests.swift */,
+				222A478F1DDD280B006C11A5 /* Info.plist */,
+			);
+			path = LedgeriOSTests;
+			sourceTree = "<group>";
+		};
+		222A47971DDD280B006C11A5 /* LedgeriOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				222A47981DDD280B006C11A5 /* LedgeriOSUITests.swift */,
+				222A479A1DDD280B006C11A5 /* Info.plist */,
+			);
+			path = LedgeriOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222A47721DDD280A006C11A5 /* LedgeriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222A479D1DDD280B006C11A5 /* Build configuration list for PBXNativeTarget "LedgeriOS" */;
+			buildPhases = (
+				222A476F1DDD280A006C11A5 /* Sources */,
+				222A47701DDD280A006C11A5 /* Frameworks */,
+				222A47711DDD280A006C11A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LedgeriOS;
+			productName = LedgeriOS;
+			productReference = 222A47731DDD280A006C11A5 /* LedgeriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		222A47881DDD280B006C11A5 /* LedgeriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222A47A01DDD280B006C11A5 /* Build configuration list for PBXNativeTarget "LedgeriOSTests" */;
+			buildPhases = (
+				222A47851DDD280B006C11A5 /* Sources */,
+				222A47861DDD280B006C11A5 /* Frameworks */,
+				222A47871DDD280B006C11A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222A478B1DDD280B006C11A5 /* PBXTargetDependency */,
+			);
+			name = LedgeriOSTests;
+			productName = LedgeriOSTests;
+			productReference = 222A47891DDD280B006C11A5 /* LedgeriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		222A47931DDD280B006C11A5 /* LedgeriOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222A47A31DDD280B006C11A5 /* Build configuration list for PBXNativeTarget "LedgeriOSUITests" */;
+			buildPhases = (
+				222A47901DDD280B006C11A5 /* Sources */,
+				222A47911DDD280B006C11A5 /* Frameworks */,
+				222A47921DDD280B006C11A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222A47961DDD280B006C11A5 /* PBXTargetDependency */,
+			);
+			name = LedgeriOSUITests;
+			productName = LedgeriOSUITests;
+			productReference = 222A47941DDD280B006C11A5 /* LedgeriOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222A476B1DDD280A006C11A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Tim;
+				TargetAttributes = {
+					222A47721DDD280A006C11A5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					222A47881DDD280B006C11A5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 222A47721DDD280A006C11A5;
+					};
+					222A47931DDD280B006C11A5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 222A47721DDD280A006C11A5;
+					};
+				};
+			};
+			buildConfigurationList = 222A476E1DDD280A006C11A5 /* Build configuration list for PBXProject "LedgeriOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222A476A1DDD280A006C11A5;
+			productRefGroup = 222A47741DDD280A006C11A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222A47721DDD280A006C11A5 /* LedgeriOS */,
+				222A47881DDD280B006C11A5 /* LedgeriOSTests */,
+				222A47931DDD280B006C11A5 /* LedgeriOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222A47711DDD280A006C11A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222A47831DDD280A006C11A5 /* LaunchScreen.storyboard in Resources */,
+				222A47801DDD280A006C11A5 /* Assets.xcassets in Resources */,
+				222A477E1DDD280A006C11A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A47871DDD280B006C11A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A47921DDD280B006C11A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222A476F1DDD280A006C11A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222A477B1DDD280A006C11A5 /* DetailViewController.swift in Sources */,
+				222A47791DDD280A006C11A5 /* MasterViewController.swift in Sources */,
+				222A47771DDD280A006C11A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A47851DDD280B006C11A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222A478E1DDD280B006C11A5 /* LedgeriOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A47901DDD280B006C11A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222A47991DDD280B006C11A5 /* LedgeriOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222A478B1DDD280B006C11A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222A47721DDD280A006C11A5 /* LedgeriOS */;
+			targetProxy = 222A478A1DDD280B006C11A5 /* PBXContainerItemProxy */;
+		};
+		222A47961DDD280B006C11A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222A47721DDD280A006C11A5 /* LedgeriOS */;
+			targetProxy = 222A47951DDD280B006C11A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		222A477C1DDD280A006C11A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222A477D1DDD280A006C11A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222A47811DDD280A006C11A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222A47821DDD280A006C11A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222A479B1DDD280B006C11A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222A479C1DDD280B006C11A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222A479E1DDD280B006C11A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LedgeriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.tim.LedgeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		222A479F1DDD280B006C11A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LedgeriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.tim.LedgeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		222A47A11DDD280B006C11A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LedgeriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.tim.LedgeriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgeriOS.app/LedgeriOS";
+			};
+			name = Debug;
+		};
+		222A47A21DDD280B006C11A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LedgeriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.tim.LedgeriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgeriOS.app/LedgeriOS";
+			};
+			name = Release;
+		};
+		222A47A41DDD280B006C11A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LedgeriOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.tim.LedgeriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LedgeriOS;
+			};
+			name = Debug;
+		};
+		222A47A51DDD280B006C11A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LedgeriOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.tim.LedgeriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LedgeriOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222A476E1DDD280A006C11A5 /* Build configuration list for PBXProject "LedgeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A479B1DDD280B006C11A5 /* Debug */,
+				222A479C1DDD280B006C11A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222A479D1DDD280B006C11A5 /* Build configuration list for PBXNativeTarget "LedgeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A479E1DDD280B006C11A5 /* Debug */,
+				222A479F1DDD280B006C11A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		222A47A01DDD280B006C11A5 /* Build configuration list for PBXNativeTarget "LedgeriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A47A11DDD280B006C11A5 /* Debug */,
+				222A47A21DDD280B006C11A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		222A47A31DDD280B006C11A5 /* Build configuration list for PBXNativeTarget "LedgeriOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A47A41DDD280B006C11A5 /* Debug */,
+				222A47A51DDD280B006C11A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222A476B1DDD280A006C11A5 /* Project object */;
+}
